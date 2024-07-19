@@ -1,0 +1,67 @@
+.bg1{
+background-image: url(https://th-i.thgim.com/public/incoming/v44eib/article68409271.ece/alternates/SQUARE_660/Rakshit%20Shetty%204.jpeg);
+}
+.bg2{
+background-image: url(https://th-i.thgim.com/public/entertainment/movies/t15w23/article68386662.ece/alternates/PORTRAIT_300/Indian2.jpg);
+}
+.bg3{
+background-image: url(https://th-i.thgim.com/public/entertainment/movies/4jzjwd/article68399786.ece/alternates/PORTRAIT_300/GSWZwL6WYAA-DT7.jfif);
+}
+.bg4{
+background-image: url(https://th-i.thgim.com/public/entertainment/movies/c9kned/article68399736.ece/alternates/PORTRAIT_300/WhatsApp%20Image%202024-07-13%20at%2012.41.26%20PM.jpeg);
+}
+.bg5{
+background-image: url(https://th-i.thgim.com/public/entertainment/movies/9t8b08/article68388424.ece/alternates/PORTRAIT_300/GSHK6yMWMAAYJWz.jfif);
+}
+.bg6{
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet.jpg/345px-Ilaiyaraaja_at_Merku_Thodarchi_Malai_Press_Meet.jpg)
+}
+.bg7{
+    background-image: url(https://th-i.thgim.com/public/entertainment/movies/4iqn1v/article68399514.ece/alternates/LANDSCAPE_1200/Amb.jpg)
+}
+.bg8{
+background-image: url(https://th-i.thgim.com/public/entertainment/movies/ok08em/article68399596.ece/alternates/PORTRAIT_300/Capt%20America.JPG);
+}
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+body{
+    background-color: black;
+}
+h2
+{
+font-size: 30px;
+font-weight: 300px;
+margin:10px;
+}
+h2 span{
+    font-size: 15px;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+.container > div{
+    height: 400px;
+    cursor: pointer;
+    background-position: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+}
+.container > div:hover{
+    opacity: 0.8;
+    transform: scale(0.98);
+}
+ .container > div:nth-of-type(1)
+{
+    grid-column: 1/3;
+}
